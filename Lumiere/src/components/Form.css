@@ -1,0 +1,79 @@
+.contact {
+    min-height: 100vh;
+    background: #faf8f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.form-card {
+    width: 100%;
+    max-width: 520px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.form-card h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-family: Georgia, serif;
+    color: #666;
+}
+
+.form-card p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+    margin: 15px 0 8px;
+    color: #6f6767;
+}
+
+input,
+textarea {
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+    color: white;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #d6b48c;
+}
+
+textarea {
+    resize: none;
+    height: 120px;
+}
+
+button {
+    margin-top: 25px;
+    padding: 15px;
+    background: #d6b48c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #c39a69;
+}
