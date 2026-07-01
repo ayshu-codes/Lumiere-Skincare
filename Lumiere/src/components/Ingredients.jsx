@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./Ingredients.css";
 
 import hyaluronic from "../assets/hyaluronic.jpeg";
 import niacinamide from "../assets/niacinamide.jpeg";

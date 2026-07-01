@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./SkinQuiz.css";
 
 const questions = [
   {

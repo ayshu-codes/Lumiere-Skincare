@@ -1,3 +1,5 @@
+import "./App.css";
+import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Products from "./components/Products";
@@ -27,10 +29,16 @@ function HomePage() {
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/quiz" element={<SkinQuiz />} />
-    </Routes>
+    <>
+      <Navbar />
+
+      <div style={{ paddingTop: "65px" }}>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/quiz" element={<SkinQuiz />} />
+        </Routes>
+      </div>
+    </>
   );
 }
 

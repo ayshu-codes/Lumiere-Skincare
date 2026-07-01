@@ -1,8 +1,6 @@
-import "./Form.css";
-
 function Form() {
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <div className="form-card">
         <h1>Get in Touch</h1>
         <br />

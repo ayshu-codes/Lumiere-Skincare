@@ -1,4 +1,3 @@
-import "./Products.css";
 import { useState } from "react";
 
 import cleanser from "../assets/cleanser.jpeg";
@@ -47,56 +46,56 @@ const products = [
     id: 5,
     image: lotion,
     title: "Nourishing Body Lotion",
-    description: "Broad spectrum SPF 50",
+    description: "Deep nourishment for soft skin",
     price: "$26.00",
   },
   {
     id: 6,
     image: lipbalm,
     title: "Hydrating Lip Balm",
-    description: "Broad spectrum SPF 50",
+    description: "Repairs and protects dry lips",
     price: "$26.00",
   },
   {
     id: 7,
     image: aloevera,
     title: "Aloe Vera Gel",
-    description: "Broad spectrum SPF 50",
+    description: "Soothes and hydrates irritated skin",
     price: "$26.00",
   },
   {
     id: 8,
     image: bodysunscreen,
     title: "Body Sunscreen",
-    description: "Broad spectrum SPF 50",
+    description: "Broad spectrum SPF 50+ protection",
     price: "$26.00",
   },
   {
     id: 9,
     image: bodywash,
     title: "Refreshing Body Wash",
-    description: "Broad spectrum SPF 50",
+    description: "Gently cleanses and refreshes skin",
     price: "$26.00",
   },
   {
     id: 10,
     image: toner,
     title: "Radiance Toner",
-    description: "Broad spectrum SPF 50",
+    description: "Balances and tightens pores",
     price: "$26.00",
   },
   {
     id: 11,
     image: facepack,
     title: "Purifying Face Pack",
-    description: "Broad spectrum SPF 50",
+    description: "Detoxifies and brightens the skin",
     price: "$26.00",
   },
   {
     id: 12,
     image: facemask,
     title: "Illuminating FaceMak",
-    description: "Broad spectrum SPF 50",
+    description: "Instant moisture and glow",
     price: "$26.00",
   },
 ];

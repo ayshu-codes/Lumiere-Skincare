@@ -1,17 +1,14 @@
-import "./Home.css";
-import homeimg from "../assets/home-img.png";
-import Navbar from "./Navbar";
-import Products from "./Products";
-
+import homeimg from "../assets/homeimg.png";
 
 function Home() {
   return (
-    
-    <section className="hero-section" id="home"
-    style={{backgroundImage: `url(${homeimg})`,}}>
-
-      <Navbar />
-
+    <section
+      className="hero-section"
+      id="home"
+      style={{
+        backgroundImage: `url(${homeimg})`,
+      }}
+    >
       <div className="hero-content">
         <span className="hero-tagline">
           PURE INGREDIENTS. VISIBLE RESULTS.
@@ -24,13 +21,17 @@ function Home() {
         </h2>
 
         <p className="hero-description">
-          Thoughtfully crafted skincare that nourishes, hydrates, and reveals
-          your natural radiance.
+          Thoughtfully crafted skincare that nourishes,
+          hydrates, and reveals your natural radiance.
         </p>
 
-        <button className="hero-btn">SHOP NOW</button>
+        <a href="#products">
+          <button className="hero-btn">
+          SHOP NOW
+        </button>
+        </a>
+        
       </div>
-
     </section>
   );
 }

@@ -1,9 +1,17 @@
-import "./Quiz.css";
 import quizbanner from "../assets/quizbanner.png";
 import { useNavigate } from "react-router-dom";
 
 export default function HeroSection() {
   const navigate = useNavigate();
+  const handleQuiz = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+
+    navigate("/quiz");
+  };
+
   return (
     <section className="quiz-hero" id="quiz" style={{backgroundImage: `url(${quizbanner})`,}} >
         
@@ -26,7 +34,7 @@ export default function HeroSection() {
 
           <button
             className="quiz-btn"
-            onClick={() => navigate("/quiz")}
+            onClick={handleQuiz}
           >
             TAKE THE QUIZ
           </button>
