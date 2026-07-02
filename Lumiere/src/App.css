@@ -60,9 +60,7 @@ body{
   color: #d4b483;
 }
 
-/* Home */
-
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap");
+/* === Home=== */
 
 :root {
   --primary-bg: #faf8f5;
@@ -156,9 +154,6 @@ a{
   background: #c5a97f;
 }
 
-/* Responsive Design */
-
-
   .hero-title {
     font-size: 56px;
   }
@@ -189,7 +184,7 @@ a{
   }
 }
 
-/* Products */
+/* ===Products=== */
 
 .products-section {
   padding: 80px 7%;
@@ -317,7 +312,7 @@ a{
   }
 }
 
-/* Quiz */
+/* ===Quiz=== */
 
 * {
   margin: 0;
@@ -444,7 +439,7 @@ body {
   }
 }
 
-/* SkinQuiz */
+/* ===SkinQuiz=== */
 
 .quiz-container{
     width:80%;
@@ -538,7 +533,7 @@ button{
     margin:10px 0;
 }
 
-/* Ingredients */
+/* ===Ingredients=== */
 
 .ingredients {
     width: 90%;
@@ -636,7 +631,7 @@ button{
     }
 }
 
-/* Form */
+/* ===Form=== */
 
 .contact {
     min-height: 100vh;
@@ -718,7 +713,7 @@ button:hover {
     background: #c39a69;
 }
 
-/* Footer */
+/* ===Footer=== */
 
 .footer{
     background:#fff;
